@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>String Method Playground</h1>
+    <div class="container3"><div id="text"></div></div>
+
+    <p id="errorText">
+      Type Number for charAt,charCodeAt,indexOf,lastIndexOf,startsWith,endsWith
+    </p>
+    <div class="container1"><input type="text" id="textInput" /></div>
+    <br />
+    <div class="commandButtons">
+      <button class="commandBtn" onclick="commandBtns(this)" id="charAt">
+        charAt()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="charCodeAt">
+        charCodeAt()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="toUpperCase">
+        toUpperCase()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="toLowerCase">
+        toLowerCase()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="trim">
+        trim()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="includes">
+        includes()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="indexOf">
+        indexOf()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="lastIndexOf">
+        lastIndexOf()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="startsWith">
+        startsWith()
+      </button>
+      <button class="commandBtn" onclick="commandBtns(this)" id="endsWith">
+        endsWith()
+      </button>
+    </div>
+    <br />
+    <div class="keyboard">
+      <div class="container2">
+        <div class="firstRow">
+          <button class="num" onclick="keyboardBtns(this)" id="1">1</button>
+          <button class="num" onclick="keyboardBtns(this)" id="2">2</button>
+          <button class="num" onclick="keyboardBtns(this)" id="3">3</button>
+          <button class="num" onclick="keyboardBtns(this)" id="4">4</button>
+          <button class="num" onclick="keyboardBtns(this)" id="5">5</button>
+          <button class="num" onclick="keyboardBtns(this)" id="6">6</button>
+          <button class="num" onclick="keyboardBtns(this)" id="7">7</button>
+          <button class="num" onclick="keyboardBtns(this)" id="8">8</button>
+          <button class="num" onclick="keyboardBtns(this)" id="9">9</button>
+          <button class="num" onclick="keyboardBtns(this)" id="0">0</button>
+        </div>
+        <div class="secondRow">
+          <button class="letter" onclick="keyboardBtns(this)" id="q">q</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="w">w</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="e">e</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="r">r</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="t">t</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="y">y</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="u">u</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="i">i</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="o">o</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="p">p</button>
+        </div>
+        <div class="thirdRow">
+          <button class="letter" onclick="keyboardBtns(this)" id="a">a</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="s">s</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="d">d</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="f">f</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="g">g</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="h">h</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="j">j</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="k">k</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="l">l</button>
+        </div>
+        <div class="fourthRow">
+          <button onclick="keyboardBtns(this)" id="capLock">capLock</button>
+
+          <input type="checkbox" id="caplock" />
+          <button class="letter" onclick="keyboardBtns(this)" id="z">z</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="x">x</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="c">c</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="v">v</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="b">b</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="n">n</button>
+          <button class="letter" onclick="keyboardBtns(this)" id="m">m</button>
+          <button onclick="keyboardBtns(this)" id="back">back</button>
+        </div>
+        <div class="fifthRow">
+          <button onclick="keyboardBtns(this)" id="space">space</button>
+          <button onclick="keyboardBtns(this)" id="clear">clear</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
